@@ -1,0 +1,506 @@
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+main {
+    overflow: hidden;
+}
+  
+section {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+  
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    float: left;
+    width: 100%;
+    padding-top: 114px;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+  
+ul {
+    list-style: none;
+}
+  
+a,
+a:hover {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: inherit;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.form-control::-webkit-input-placeholder { /* Edge */
+    color: #015cab;
+}
+  
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #015cab;
+}
+  
+.form-control::placeholder {
+    color: #015cab;
+}
+
+.position-relative {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 6px 0;
+    background: #015cab;
+}
+
+.logo {
+    max-width: 110px;
+}
+
+.navbar {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-menu .nav-items {
+    float: right;
+    margin: 0;
+    padding-top: 17px;
+}
+
+.nav-menu .nav-items li {
+    float: left;
+}
+
+.nav-menu .nav-items li a {
+    color: #fff;
+    padding: 9px 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-menu .nav-items li:last-child a {
+    padding-right: 0;
+}
+
+.nav-menu .nav-items li.active a {
+    text-decoration: underline;
+}
+
+a.download-btn {
+    background: #75787e;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: -6px;
+}
+
+.main-heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #015cab;
+}
+
+h1.main-heading {
+    font-size: 4.5rem;
+    line-height: 63px;
+}
+
+h2.main-heading {
+    font-size: 2.5rem;
+}
+
+.py-10 {
+    padding: 11rem 0;
+}
+
+.display-block {
+    display: block;
+}
+
+.home-banner {
+    background-image: url(../images/globe.svg);
+    background-size: 109%;
+    background-position: -129px 0px;
+    background-repeat: no-repeat;
+}
+
+.home-banner p {
+    font-size: 1.3rem;
+    color: #015cab;
+}
+
+.primary-btn {
+    display: inline-block;
+    padding: 9px 23px;
+    background: #015cab;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bg-theme {
+    background: #015cab;
+}
+
+.text-theme {
+    color: #015cab;
+}
+
+.icon-box img {
+    height: 140px;
+}
+
+.icon-box p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.border-white {
+    border: 1px solid #fff;
+}
+
+.more {
+    background-image: url(../images/more.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right 16px;
+    padding: 107px 1.5rem;
+    margin-bottom: 48px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background: #75787e;
+}
+
+.footer-menu a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 29px;
+    font-size: 15px;
+}
+
+.footer-menu a:first-child {
+    padding-left: 0;
+}
+
+.footer-menu a:last-child {
+    padding-right: 0;
+}
+
+.footer-logo {
+    max-width: 133px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.check-out {
+    margin-top: 4rem;
+}
+
+.about-us p, .contact-us p {
+    font-size: 10.8px;
+    font-weight: 600;
+}
+
+.our-services {
+    background-image: url(../images/fiber.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+}
+
+.our-services p {
+    font-size: 1.3rem;
+}
+
+.service-section h3 {
+    display: flex;
+    align-items: baseline;
+    font-weight: 600;
+}
+
+.service-section h3 img {
+    width: 35px;
+}
+
+.service-section p {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 82%;
+}
+
+.service-section ul {
+    list-style: disc;
+    color: #015cab;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.service-section img.sr-img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.quarter p {
+    width: 88%;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.pt-10 {
+    padding-top: 10rem;
+}
+
+.contact-form .form-control {
+    background: #f0f0f0;
+    border: 0;
+    margin-bottom: 10px;
+    color: #015cab;
+}
+
+.contact-us {
+    background-image: url(../images/contact.svg);
+    background-repeat: no-repeat;
+    background-position: right -172px;
+    background-size: 758px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width:1150px) {
+    .more {
+        background-size: 43%;
+        background-position: right 67px;
+    }
+
+    .our-services {
+        background-size: 500px;
+    }
+
+    .contact-us {
+        background-size: 625px;
+        background-position: right -109px
+    }
+}
+
+@media (max-width:991px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        margin-top: 33px;
+    }
+
+    .mobile-menu a.menu-icon {
+        background: #FAFAFA;
+        padding: 9px 15px;
+        color: #333333;
+        font-size: 20px;
+    }
+    
+    .mobile-menu ul {
+        position: absolute;
+        width: 275px;
+        right: 0;
+        background: #fff;
+        top: 45px;
+        padding: 23px 0 10px;
+        display: none;
+        box-shadow: 0px 0px 7px 1px #545252;
+    }
+
+    .mobile-menu ul li {
+        float: left;
+        width: 100%;
+    }
+
+    .mobile-menu ul li a {
+        text-transform: uppercase;
+        color: #333;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 8px 10px 8px 16px;
+        width: 100%;
+        float: left;
+        line-height: normal;
+    }
+
+    .mobile-menu ul li a:hover {
+        background: #015cab;
+        color: #fff;
+    }
+
+    .mobile-menu a.cross {
+        position: absolute;
+        right: 3px;
+        z-index: 10;
+        top: -4px;
+        color: #333;
+        font-size: 25px;
+    }
+    .home-banner {
+        background-size: 84%;
+        background-position: -50px 0px;
+    }
+
+    .py-10 {
+        padding: 29px 0;
+    }
+
+    h1.main-heading {
+        font-size: 3.5rem;
+        line-height: 57px;
+    }
+
+    .home-banner p {
+        font-size: 1.2rem;
+    }
+
+    .more {
+        background-size: 43%;
+        background-position: right 121px;
+        margin-bottom: 0;
+    }
+
+    .footer-logo {
+        position: static;
+        display: block;
+        margin: 26px auto 0;
+    }
+
+    .our-services {
+        background-size: 423px;
+    }
+
+    .service-section p {
+        width: 100%;
+    }
+
+    .contact-us {
+        background-size: 522px;
+        background-position: right -50px;
+    }
+}
+
+@media (max-width:768px) {
+    .home-banner, .our-services {
+        background-image: none;
+    }
+
+    .our-services {
+        text-align: center;
+    }
+
+    .home-banner .text-right {
+        text-align: center !important;
+    }
+
+    br {
+        display: none;
+    }
+
+    h1.main-heading {
+        font-size: 2.5rem;
+    }
+
+    .communication h1 {
+        font-size: 2rem;
+    }
+
+    .more {
+        background-size: 308px;
+        background-position: center 35px;
+        margin-bottom: 0;
+        padding: 188px 0.5rem 0;
+    }
+
+    h2.main-heading {
+        font-size: 2rem;
+    }
+
+    .footer-menu a {
+        padding: 0 20px;
+        font-size: 10px;
+    }
+
+    .about-us .row {
+        flex-direction: column-reverse;
+    }
+
+    .service-section:nth-child(2n) .row {
+        flex-direction: column-reverse;
+    }
+
+    .pt-10 {
+        padding-top: 0;
+    }
+
+    .contact-us {
+        background-size: 522px;
+        background-position: center -158px;
+        padding-top: 289px !important;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:550px) {
+    h1.main-heading {
+        font-size: 1.3rem;
+        line-height: normal;
+    }
+
+    .home-banner p {
+        font-size: 1rem;
+    }
+
+    .communication h1 {
+        font-size: 1.3rem;
+    }
+
+    h2.main-heading {
+        font-size: 1.3rem;
+    }
+
+    .contact-us {
+        background-size: 423px;
+        background-position: center -102px;
+        padding-top: 289px !important;
+        text-align: center;
+    }
+}
